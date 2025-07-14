@@ -10,6 +10,7 @@
 
 .header{
     background-image: url(../imges/Hero-bg.png);
+    padding-bottom: 20px;
 }
 
 
@@ -45,6 +46,7 @@
 
 
 .btn-stay-focused{
+    display: block;
     margin: 5px 750px;
     background-color: #4E47FF;
     border-radius: 10px;
@@ -53,8 +55,6 @@
     font-weight: bold;
     font-size: 16px;
     border: none;
-    display: block;
-    margin-bottom: 100px;
 }
 
 .banner-title{
@@ -102,7 +102,7 @@
 
 .users-title{
     text-align: center;
-    padding: 50px;
+    padding: 50px 140px;
     font-weight: bold;
     font-size: 38px;
     color: #252432;
@@ -126,4 +126,51 @@ div ul li{
     font-size: 40px;
     color: #757575;
     padding-bottom: 50px;
+}
+
+.third-section{
+    margin: 20px 200px;
+}
+
+
+.big-card-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E1E1E;
+}
+
+.card-content{
+    font-size: 18px;
+    color: #757575;
+}
+
+.review-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #757575;
+}
+
+.review-content{
+    font-weight: 300;
+    font-size: 14px;
+    color: #B3B3B3;
 }
