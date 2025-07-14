@@ -43,14 +43,6 @@
     justify-content: center;
 }
 
-.banner-title{
-    text-align: center;
-    font-weight: bold;
-    font-size: 65px;
-    color: #252432;
-    padding: 0px 400px;
-
-}
 
 .btn-stay-focused{
     margin: 5px 750px;
@@ -61,7 +53,77 @@
     font-weight: bold;
     font-size: 16px;
     border: none;
+    display: block;
     margin-bottom: 100px;
+}
+
+.banner-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+    padding: 0px 400px;
+
+}
 
 
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px;
+}
+
+.action-title{
+    margin: 5px 150px;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+
+.action-description{
+    margin: 5px 150px;
+    font-size: 24px;
+    color: #757575;
+}
+
+.action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+
+.second-section{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 200px 250px;
+    border-radius: 30px;
+}
+
+
+.users-title{
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+
+.view{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;  
+}
+
+div ul li{
+    list-style: none;
+}
+
+.view-type{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    color: #757575;
+    padding-bottom: 50px;
 }
